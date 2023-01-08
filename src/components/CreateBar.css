@@ -1,0 +1,30 @@
+.add-section form {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.add-section form>input[type="text"] {
+    display: inline-block;
+    width: 500px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    padding-left: 20px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.add-section form>button[type="submit"] {
+    display: inline-block;
+    margin-left: 50px;
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    font-size: 30px;
+}
+
+.add-section form>button[type="submit"]:hover {
+    cursor: pointer;
+}

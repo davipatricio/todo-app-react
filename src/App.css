@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgb(40, 15, 63);
+
+    display: flex;
+    flex-basis: 200px;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+    justify-content: center;
+
+    min-height: 100vh;
+    border: 1px solid #000;
+}
+
+.header-section {
+    margin-top: 15px;
+    background-color: rgb(55, 18, 90);
+    border-radius: 30px;
+    min-height: 95vh;
+
+    width: 750px;
+}
+
+.separator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 5%;
+    border: .5px solid rgba(128, 128, 128, 0.507);
+    width: 90%;
+    height: 2px;
+}
+
+.todo-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}

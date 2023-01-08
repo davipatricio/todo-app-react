@@ -1,0 +1,37 @@
+.todo-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 700px;
+    border-radius: 30px;
+    background-color: rgb(26, 23, 23);
+    color: #fff;
+    font-size: 20px;
+    /* set height to 80px and fit the content */
+    height: fit-content;
+    min-height: 80px;
+}
+
+.todo-item button {
+    margin: 30px;
+    color: red;
+    background-color: transparent;
+    border: none;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.todo-item button:hover {
+    color: rgb(161, 35, 35);
+}
+
+.todo-item p {
+    font-size: 18px;
+    text-align: left;
+    padding: 5px;
+    margin-left: 20px;
+    flex-grow: 1;
+    font-family: 'Poppins', sans-serif;
+    word-break: keep-all;
+}
